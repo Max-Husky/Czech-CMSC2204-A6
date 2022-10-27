@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.listen(
   PORT,
-  () => console.log('living server')
+  () => console.log(`Server Running on port: ${PORT}`);
 );
 
 // get one user
