@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.listen(
   PORT,
-  () => console.log(`Server Running on port: ${PORT}`);
+  () => console.log(`Server Running on port: ${PORT}`)
 );
 
 // get one user
